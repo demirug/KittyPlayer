@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AudioPlayer</name>
+    </assembly>
+    <members>
+        <member name="M:AudioPlayer.RenameSongLabel.TabMoveCapture(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Handler of window capture
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.RenameSongLabel.exitButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Click exit button handler
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.RenameSongLabel.applyButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Apply button handler
+            </summary>
+        </member>
+        <member name="F:AudioPlayer.RenameSongLabel.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.RenameSongLabel.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AudioPlayer.RenameSongLabel.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.addSongLabel.TabMoveCapture(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Handler of window capture
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.addSongLabel.exitButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Click exit button handler
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.addSongLabel.applyButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Apply button handler
+            </summary>
+        </member>
+        <member name="F:AudioPlayer.addSongLabel.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.addSongLabel.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AudioPlayer.addSongLabel.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.updateTrackName">
+            <summary>
+            Update current track name
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.valueChangeEvent(System.Object,System.EventArgs)">
+            <summary>
+            Volume bar changed value
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.nextButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Next audio button click handler
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.previosButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Previos audio button click handler
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.addSong(Song,System.Boolean)">
+            <summary>
+            Add song to panel
+            </summary>
+            <param name="song">
+            Song object witch will be added to panel
+            </param>
+            <param name="player">
+            Is Song added by user or loaded by programm
+            </param>
+        </member>
+        <member name="M:AudioPlayer.Main.TabMoveCapture(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Handler of window capture
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.setPlayButtonStatus">
+            <summary>
+            Update Play/Pause button status
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.playButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handler play button click
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.switchCursor_Enter(System.Object,System.EventArgs)">
+            <summary>
+            Availiable Hand cursor handler
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.switchCursor_Leave(System.Object,System.EventArgs)">
+            <summary>
+            Availiable Hand cursor handler
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.exitButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Exit button click handler
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.minimizeButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Minimize button click handler
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.addMusicButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Add music button click handler
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.addRadioButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Add radio button click handler
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.authorLabel_1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Author name label click handler
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.authorLabel_2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Author name label click handler
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.tabLogoPicture_Click(System.Object,System.EventArgs)">
+            <summary>
+            Programm logo click handler
+            </summary>
+        </member>
+        <member name="F:AudioPlayer.Main.components">
+            <summary>
+            Обязательная переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.Main.InitializeComponent">
+            <summary>
+            Требуемый метод для поддержки конструктора — не изменяйте 
+            содержимое этого метода с помощью редактора кода.
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.MusicPanel.init">
+            <summary>
+            Load panel elements
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.MusicPanel.doubleClick(System.Object,System.EventArgs)">
+            <summary>
+            Panel label click handler
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.MusicPanel.onClick(System.Object,System.EventArgs)">
+            <summary>
+            Panel click handler
+            </summary>
+            <param name="sender">
+            Image Panel object
+            </param>
+        </member>
+        <member name="M:AudioPlayer.MusicPanel.mouseLeave(System.Object,System.EventArgs)">
+            <summary>
+            Mouse position leave object position
+            </summary>
+        </member>
+        <member name="M:AudioPlayer.MusicPanel.mouseEnter(System.Object,System.EventArgs)">
+            <summary>
+            Mouse position enter to object position
+            </summary>
+        </member>
+        <member name="T:AudioPlayer.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.add_music">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.add_radio">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.apply">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Back">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.exit">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Idle_Music">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Left">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.minimize">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Not_Selected">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Play">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Right">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Right_Logo">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Selected">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Start_Music">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Stop">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Stop_Music">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.titleLogo">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Varien_nyan">
+            <summary>
+              Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+            </summary>
+        </member>
+        <member name="P:AudioPlayer.Properties.Resources.Volume">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="M:CircledDoubleEnumerator`1.addElement(`0)">
+            <summary>
+            Add element to enumerator
+            </summary>
+            <param name="element">
+            Element varalible
+            </param>
+        </member>
+        <member name="M:CircledDoubleEnumerator`1.MovePrevious">
+            <summary>
+            Move enumerator to previos value
+            </summary>
+            <returns>Return is operation successful</returns>
+        </member>
+        <member name="M:CircledDoubleEnumerator`1.MoveNext">
+            <summary>
+            Move enumerator to next value
+            </summary>
+            <returns>Return is operation successful</returns>
+        </member>
+        <member name="P:CircledDoubleEnumerator`1.Current">
+            <summary>
+            Get current object
+            </summary>
+            <returns>Return current object</returns>
+        </member>
+        <member name="M:CircledDoubleEnumerator`1.isEmpty">
+            <summary>
+            Is enumator empty?
+            </summary>
+            <returns>Return is enumerator empty</returns>
+        </member>
+        <member name="M:CircledDoubleEnumerator`1.getCount">
+            <summary>
+            Get count of enumator values
+            </summary>
+            <returns>Return count of enumarator</returns>
+        </member>
+        <member name="M:CircledDoubleEnumerator`1.Reset">
+            <summary>
+            Set enumerator index to -1
+            </summary>
+        </member>
+        <member name="M:CircledDoubleEnumerator`1.Dispose">
+            <summary>
+            Clear enumarator data
+            </summary>
+        </member>
+        <member name="M:MusicPlayer.stopHandler(System.Int32)">
+            <summary>
+            Music audio ended handler for state event
+            </summary>
+            <param name="state">
+            State code
+            type <see cref="T:System.Int32"/> 
+            Special for "state"
+            </param>
+        </member>
+        <member name="M:MusicPlayer.setVolume(System.Int32)">
+            <summary>
+            Change Audio volume
+            </summary>
+            <param name="volume">
+            Volume varalible
+            type <see cref="T:System.Int32"/> 
+            Special for "volume"
+            </param>
+        </member>
+        <member name="M:MusicPlayer.Play">
+            <summary>
+            Disable audio playing
+            </summary>
+            <exception cref="T:System.Exception">
+            If can't play Audio
+            </exception>
+        </member>
+        <member name="M:MusicPlayer.Stop">
+            <summary>
+            Disable audio playing
+            </summary>
+        </member>
+        <member name="M:MusicPlayer.initSounds(System.Boolean)">
+            <summary>
+            Load sounds from "music.xml"
+            </summary>
+            <param name="secondTry">
+            Is this second try to load Sounds.
+            type <see cref="T:System.Boolean"/> 
+            Special for "secondTry"
+            </param>
+            <exception cref="T:System.Exception">
+            If error while reading "music.xml"
+            </exception>
+        </member>
+        <member name="M:MusicPlayer.removeSong(Song)">
+            <summary>
+            Remove song from "music.xml"
+            </summary>
+            <param name="song">
+            The song need be deleted from "music.xml"
+            type <see cref="T:Song"/> 
+            Special for "song"
+            </param>
+        </member>
+        <member name="M:MusicPlayer.addSong(Song)">
+            <summary>
+            Add song to "music.xml"
+            </summary>
+            <param name="song">
+            The song need be added to "music.xml"
+            type <see cref="T:Song"/> 
+            Special for "song"
+            </param>
+        </member>
+    </members>
+</doc>
