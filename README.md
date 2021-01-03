@@ -1,4 +1,4 @@
 # KittyPlayer
-KittyPlayer - music player owned on by WindowsMediaPlayer
+KittyPlayer - music player owned by WindowsMediaPlayer API
 
 1st year coursework
